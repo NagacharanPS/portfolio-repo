@@ -1,0 +1,235 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css folder/general.css">
+    <link rel="stylesheet" href="css folder/header.css">
+    <link rel="stylesheet" href="css folder/section.css">
+    <link rel="stylesheet" href="css folder/hamburger.css">
+    <link rel="stylesheet" href="css folder/button.css">
+    <link rel="stylesheet" href="css folder/profile.css">
+    <link rel="stylesheet" href="css folder/about.css">
+    <link rel="stylesheet" href="css folder/experience.css">
+    <link rel="stylesheet" href="css folder/project.css">
+    <link rel="stylesheet" href="css folder/contact.css">
+    <link rel="stylesheet" href="css folder/header.css">
+    <link rel="stylesheet" href="css folder/arrow.css">
+    <link rel="stylesheet" href="css folder/mediaqueries.css">
+    <link rel="stylesheet" href="css folder/footer.css">
+    <link rel="stylesheet" href="css folder/certificates.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Nagacharan PS</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" >About</a></li>
+                <li><a href="#experience" >Experience</a></li> 
+                <li><a href="#certifications" >Certifications</a></li>
+                <li><a href="#projects" >Projects</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">NAGACHARAN PS</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience" >Experience</a></li>
+                    <li><a href="#certifications" >Certifications</a></li>  
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="profile-pic-container">
+            <img src="profile-1.png" alt="profile-pic">
+        </div>
+
+        <div class="profile-about-container">
+            <div class="profile-text">
+                <p>Hello I'm</p>
+                <h1>Nagacharan P S</h1>
+                <h2>Frontend Developer</h2>
+            </div>
+
+            <div class="profile-btn-container">
+                <button onclick= "window.open('final-resume (1).pdf')">Download CV</button>
+                <button onclick= "location.href ='./#contact'">Contact Info</button>
+            </div>
+
+            <div class="profile-socials-container">
+                <img class="icon" src="linkedin.png" alt="linkedin-icon" onclick="window.open('https://www.linkedin.com/in/nagacharan-p-s-2920452a5/')">
+                <img class="icon" src="github.png" alt="github-icon" onclick="window.open('https://github.com/NagacharanPS')">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-text">
+            <p>Get To Know More</p>
+            <h1>About Me</h1>
+        </div>
+
+        <div class="about-container">
+            <ul>
+                <li>I'm Nagacharan PS, 2nd-year Engineering student at Sri Venkateshwara College of Engineering.</li>
+                <li>I'm building a strong foundation in computer science.</li>
+                <li>With a passion for technology, development, and innovation.</li>
+                <li>I'm passionate about web development.</li>
+                <li>I'm continuously learning and exploring ways to grow as an engineer.</li>
+                <li>I enjoy taking on new challenges and honing my skills to continue meaningful projects.</li>
+               </ul>
+        </div>
+
+        <img src="./arrow.png" alt="Arrow icon" class="arrow-icon" onclick="location.href='#experience'"/>
+    </section>
+
+    
+     <section id="experience">
+    <div class="experience-text">
+        <p>Explore My</p>
+        <h1>Experience</h1>
+    </div>
+
+    <div class="experience-about-container">
+        <h2>Frontend Development</h2>
+
+        <div class="skills">
+            <div class="skills-text">
+                <img src="checkmark.png" alt="checkmark icon">
+                <h3>HTML</h3>
+                <h4>Experienced</h4>
+            </div>
+
+            <div class="skills-text">
+                <img src="checkmark.png" alt="checkmark icon">
+                <h3>CSS</h3>
+                <h4>Experienced</h4>
+            </div>
+
+            <div class="skills-text">
+                <img src="checkmark.png" alt="checkmark icon">
+                <h3>JavaScript</h3>
+                <h4>Experienced</h4>
+            </div>
+
+            <div class="skills-text">
+                <img src="checkmark.png" alt="checkmark icon">
+                <h3>React JS</h3>
+                <h4>Intermediate</h4>
+            </div>
+
+            <div class="skills-text">
+                <img src="checkmark.png" alt="checkmark icon">
+                <h3>Git</h3>
+                <h4>Experienced</h4>
+            </div>
+        </div>
+    </div>
+    <img src="./arrow.png" alt="Arrow icon" class="arrow-icon" onclick="location.href='#certifications'">
+     </section>
+
+     <section id="certifications">
+        <p>My Certification Journey</p>
+        <h1>Certifications</h1>
+
+        <div class="certificates-container">
+            <img src="HTML-certificate-linkedin (3)-1.png" alt="html-certificate">
+
+            <img src="CSS-certificate-linkedin-1 - Copy.png" alt="css-certificate">
+
+            <img src="Javascript-certificate-linkedin-1.png" alt="javascript-certificate">
+
+            <img src="React.js-certificate-linkedin-1.png" alt="react.js-certificate">
+
+            <img src="Git-certificate-linkedin-1.png" alt="git-certificate">
+        </div>
+        <img src="./arrow.png" alt="Arrow icon" class="arrow-icon" onclick="location.href='#projects'">
+     </section>
+
+     <section id="projects">
+         <p>Practical Applications of My Skills</p>
+         <h1>Projects</h1>
+         <div class="projects-container">
+            <div class="project-container">
+                <img src="project-1.png" alt="youtube clone">
+                <h2>Project One</h2>
+                <button onclick="window.open('https://github.com/NagacharanPS/YouTube-Clone')">Github</button>
+                <button onclick="window.open('https://nagacharanps-you-tube-clone.netlify.app/')">Live Demo</button>
+            </div>
+            <div class="project-container">
+                <img src="tic-tac-toe.png" alt="tic-tac-toe">
+                <h2>Project Two</h2>
+                <button onclick="window.open('https://github.com/NagacharanPS/Tic-Tac-Toe-repo')">Github</button>
+                <button onclick="window.open('https://nagacharanps-tic-tac-toe.netlify.app/')">Live Demo</button>
+            </div>
+                
+
+                <div class="project-container">
+                    <img src="calculator.png" alt="calculator">
+                <h2>Project Three</h2>
+                <button onclick="window.open('https://github.com/NagacharanPS/calculator-repo')">Github</button>
+                <button onclick="window.open('https://nagacharanps-calculator.netlify.app/')">Live Demo</button>
+                </div>
+            
+         </div>
+         <img src="./arrow.png" alt="Arrow icon" class="arrow-icon" onclick="location.href='#contact'">
+     </section>
+
+     <section id="contact">
+        <p>Get in Touch</p>
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="contact-info-container">
+                <img class="email-icon" src="email.png" alt="email-icon">
+                <a href="mailto:nagacharanps987@gmail.com">nagacharanps987@gmail.com</a>
+            </div>
+
+            <div class="contact-info-container second-child">
+                <img class="linkedin-icon" src="linkedin.png" alt="linkedin-icon">
+                <a onclick="window.open('https://www.linkedin.com/in/nagacharan-p-s-2920452a5/')">LinkedIn</a>
+            </div>
+        </div>
+     </section>
+
+      <footer id="footer">
+          <nav>
+            <div>
+                <ul class="nav-links footer-nav-links">
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#experience">Experience</a></li>
+
+                    <li><a href="#certifications">Certifications</a></li>
+
+                    <li><a href="#projects">Projects</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+          </nav>
+          <p>Copyright &#169; 2023 Nagacharan PS. All Rights Reserved.</p>
+     </footer> 
+
+  
+
+    
+</body>
+</html> 

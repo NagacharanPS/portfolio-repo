@@ -1,0 +1,33 @@
+#footer{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-nav-links li a:hover{
+      color: gray;
+}
+
+.footer-nav-links li a{
+    color: white;
+}
+
+.footer-nav-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer nav div{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#footer p{
+    margin-bottom: 10px;
+}

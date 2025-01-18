@@ -1,0 +1,14 @@
+.arrow-icon{
+    position: absolute;
+    
+    left: calc(100% - 4rem);
+    bottom: 2rem;
+    height: 3rem;
+}
+
+.arrow-icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    
+    
+}

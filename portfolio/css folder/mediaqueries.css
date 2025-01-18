@@ -1,0 +1,235 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+     display: none;
+    }
+ 
+    
+     #hamburger-nav{
+     display: flex;
+     justify-content: space-between;
+     padding: 0 30px;
+     height: 100px;
+     align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hamburger-menu{
+        z-index: 100;
+    }
+    #profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-pic-container{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 280px;
+        height: 280px;
+        
+    }
+
+    .about-container{
+        
+        width: 90%;
+        height:auto;
+    }
+
+    
+    .about-container{
+        font-size: 10px;
+    }
+
+    .experience-about-container{
+        
+        height: auto;
+        padding: 10px;
+        
+    }
+
+    .skills-text h3{
+       font-size: 20px;
+    }
+
+    .skills-text h4{
+        font-size: 13px;
+    }
+
+    .about-container li{
+        margin: 15px 0;
+        line-height: 30px;
+        text-indent: -1.2em;
+        padding-left: 1.7em;
+    }
+
+    .certificates-container img{
+        width: 100px !important;
+        height: 100px !important;
+        margin-left: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+      
+     .certificates-container{
+         
+         display: grid;
+         grid-template-columns: repeat(2,1fr) !important;
+        padding: 0 !important;
+        
+         height:auto !important;
+     }
+
+     .contact-container{
+        width: 65%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+     }
+
+     
+     .contact-info-container a{
+        font-size: 11px;
+     }
+
+     .linkedin-icon{
+        width: 50px;
+        height: 50px;
+     }
+
+
+     .second-child{
+        margin-left: 25%;
+     }
+
+     .footer-nav-links li a{
+        font-size: 10px;
+     }
+     
+        
+     .contact-info-container{
+        margin-bottom: 10px;
+     }
+
+     .profile-text h1{
+        font-size: 40px;
+     }
+     
+     .profile-text h2{
+        font-size: 25px;
+     }
+
+     #footer P{
+        font-size: 11px;
+     }
+
+     .arrow-icon{
+        display: none;
+     }
+
+     #hamburger-nav{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     #hamburger-nav .logo{
+        margin-left: -15px;
+        font-size: 25px;
+     }
+
+     .hamburger-menu{
+        margin-right: -7px;
+     }
+
+} 
+   
+
+@media  (min-width: 481px )  and (max-width:768px){
+    #profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    
+
+    .profile-pic-container{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .about-container{
+        width: 90%;
+        height:auto;
+    }
+
+    .experience-about-container{
+        
+        height: auto;
+    }
+
+    .about-container li{
+        text-indent: -1.2em;
+        padding-left: 1.7em;
+    }
+    
+    .certificates-container img{
+       width: 180px !important;
+       height: 180px !important;
+    }
+     
+    .certificates-container{
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr) !important;
+        height:auto !important;
+    }
+
+    .contact-container{
+        width: 65%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+     }
+
+     
+     .contact-info-container a{
+        font-size: 13px;
+     }
+
+     .linkedin-icon{
+        width: 50px;
+        height: 50px;
+     }
+
+
+     .second-child{
+        margin-left: 25%;
+     }
+
+     .footer-nav-links li a{
+        font-size: 17px;
+     }
+
+     .contact-info-container{
+        margin-bottom: 10px;
+     }
+
+     .arrow-icon{
+        display: none;
+     }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+     .certificates-container {
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+        
+     }
+
+     .contact-container{
+        width: 63%;
+     }
+  }
